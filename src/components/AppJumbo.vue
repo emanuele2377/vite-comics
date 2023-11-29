@@ -3,7 +3,7 @@ export default {
     name: "AppJumbo",
     props: ["links"],
     mounted() {
-        console.log("Componente AppHeader caricato");
+        console.log("Componente AppJumbo caricato");
     }
 }
 </script>
@@ -12,8 +12,9 @@ export default {
     <section>
         <span><img class="jumbo" src="../assets/img/jumbotron.jpg" alt=""></span>
         <div>
-            <a v-for="link in links" :href="link.thumb">{{ link.price }} {{ link.seies }} {{ link.type }}</a>
+            <span v-for="link in links"> {{ link.thumb }}</span>
         </div>
+
     </section>
 
     <section class="digital-comics">
