@@ -14,7 +14,7 @@ data() {
   return {
     menuLinks: [
       {
-        thumb: "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
+        thumb: "http://www.coverbrowser.com/image/action-comics/1-1.jpg",
         price: "$19.99",
         series: "Action Comics",
         type: "comic book",
